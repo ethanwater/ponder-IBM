@@ -1,23 +1,29 @@
+Results:
 
 f32{
 	10,000 Test Cases:
-
+		-> N = 13,  %3.54  	             win rate
+		-> N = 300, %43.55 	             win rate
+	
 	100,000 Test Cases:
-		-> N = 13,  % 4.02  	 win rate
-		-> N = 300, %43.103 	 win rate
+		-> N = 13,  % 4.02  	           win rate
+		-> N = 300, %43.103 	           win rate
 	
 	1,000,000 Test Cases:
-		-> N = 13,  % 3.9977 	 win rate
-		-> N = 300, %43.2207 	 win rate
+		-> N = 13,  %3.9977 	           win rate
+		-> N = 300, %43.2207 	           win rate
 }
 
-f64 {
+f64{
 	10,000 Test Cases:
-		-> N = 13,  % 3.98 win rate
-		-> N = 300, % 42.68 win rate
+		-> N = 13,  %3.98                win rate
+		-> N = 300, %42.68               win rate
 
 	100,000 Test Cases:
-		-> N = 13,  % 3.979 win rate
+		-> N = 13,  % 3.979              win rate
 		-> N = 300, % 43.291000000000004 win rate
 
+	1,000,000 Test Cases:
+		-> N = 13,  % 3.9605 	           win rate
+		-> N = 300, %43.1944 	           win rate
 }
