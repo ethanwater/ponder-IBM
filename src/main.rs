@@ -46,7 +46,9 @@ fn is_prime(n: u32) -> bool {
 //play() simulates a game, based on 'n: the required amount of wins to end the game',
 //and 'bonus_state: if true, the bonus problem is considered where Bob requires a nonprime
 //odd number to win the round- if false, the original problem is considered where Bob
-//requires a nonprime even number to win the round.
+//requires a nonprime even number to win the round. It returns either a 1 (Alice wins) or
+//a 0 (Bob wins). This allows the program to count for each time Alice wins once we sum all
+//the 1's in the stack.
 //
 //the play() method disregards ties for practical purposes.
 fn play(n: u32, bonus_state: bool) -> u32 {
